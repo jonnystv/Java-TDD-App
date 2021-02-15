@@ -14,5 +14,9 @@ public class Plane {
         return this.name;
     }
 
+    public PlaneType getPlaneType() {
+        return this.planeType;
+    }
+
 
 }

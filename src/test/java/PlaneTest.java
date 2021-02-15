@@ -19,4 +19,9 @@ public class PlaneTest {
         assertEquals("Spirit of the Abstract", testPlane.getName());
     }
 
+    @Test
+    public void hasType() {
+        assertEquals(PlaneType.B747, testPlane.getPlaneType());
+    }
+
 }
