@@ -18,4 +18,10 @@ public class PilotTest {
     public void hasName() {
         assertEquals("Jill Smith", pilot.getName());
     }
+
+    @Test
+    public void hasRank(){
+        assertEquals(Rank.CAPTAIN, pilot.getRank());
+    }
+
 }
