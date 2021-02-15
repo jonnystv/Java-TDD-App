@@ -29,4 +29,9 @@ public class PlaneTest {
         assertEquals(30, testPlane.getPassengerCapacity());
     }
 
+    @Test
+    public void hasWeightLimit() {
+        assertEquals(300.00, testPlane.getWeightLimit(), 0.01);
+    }
+
 }

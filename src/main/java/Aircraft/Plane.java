@@ -22,5 +22,8 @@ public class Plane {
         return this.planeType.getPassengerCapacity();
     }
 
+    public double getWeightLimit() {
+        return this.planeType.getWeightLimit();
+    }
 
 }
