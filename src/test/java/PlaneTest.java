@@ -24,4 +24,9 @@ public class PlaneTest {
         assertEquals(PlaneType.B747, testPlane.getPlaneType());
     }
 
+    @Test
+    public void hasPassengerCapacity() {
+        assertEquals(30, testPlane.getPassengerCapacity());
+    }
+
 }

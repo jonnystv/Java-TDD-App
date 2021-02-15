@@ -18,5 +18,9 @@ public class Plane {
         return this.planeType;
     }
 
+    public int getPassengerCapacity() {
+        return this.planeType.getPassengerCapacity();
+    }
+
 
 }
