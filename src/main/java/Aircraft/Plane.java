@@ -3,14 +3,16 @@ package Aircraft;
 public class Plane {
 
     private PlaneType planeType;
-    private PlaneType passengerCapacity;
-    private PlaneType weightLimit;
     private String name;
 
-    public Plane(String name, PlaneType planeType, PlaneType passengerCapacity, PlaneType weightLimit) {
+    public Plane(String name, PlaneType planeType) {
         this.planeType = planeType;
-        this.passengerCapacity = passengerCapacity;
-        this.weightLimit = weightLimit;
         this.name = name;
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+
 }
