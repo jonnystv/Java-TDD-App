@@ -24,6 +24,11 @@ public class FlightAttendantTest {
     public void hasRank(){
         assertEquals(Rank.CHIEF_ATTENDANT, flightAttendant.getRank());
     }
+
+    @Test
+    public void canMakeAnnouncement() {
+        assertEquals("Make sure your seat back and folding trays are in their full upright position", flightAttendant.makeAnnouncement());
+    }
 }
 
 
