@@ -24,4 +24,10 @@ public class PilotTest {
         assertEquals(Rank.CAPTAIN, pilot.getRank());
     }
 
+    @Test
+    public void hasLicenceNumber(){
+        assertEquals("JAS1968", pilot.getLicenceNumber());
+    }
+
+
 }
